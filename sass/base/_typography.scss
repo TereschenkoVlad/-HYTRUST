@@ -1,0 +1,55 @@
+form#contact  {
+  border:1px solid #e5e5e5;
+  padding:10px;
+  background:#e9ffd0;
+  border-radius:5px;
+  h3 {
+    color: #c7a589;
+    padding: 20px 0;
+    font-size: 25px;
+  }
+}
+#contact #fields label {
+  display: block;
+  font-size: 12px;
+}
+
+#contact #fields input {
+  display: block;
+  font-size: 12px;
+}
+
+#contact input:required:valid {
+  box-shadow: 0 0 3px #BCEF89;
+  border-color: #BCEF89 !important;
+}
+#contact textarea:required:valid {
+  box-shadow: 0 0 3px #BCEF89;
+  border-color: #BCEF89!important;
+}
+#contact input:focus:invalid {
+  box-shadow: 0 0 3px #FFDF97;
+  border-color: #FFDF97!important;
+}
+#contact textarea:focus:invalid {
+  box-shadow: 0 0 3px #FFDF97;
+  border-color: #FFDF97!important;
+}
+
+#fields {
+  button {
+    background: lightyellow;
+    line-height: 25px;
+    width: 150px;
+    color: #c7a589;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+}
+.err {
+  border: 1px solid #ff8c00;
+}
+
+
+
